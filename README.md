@@ -11,20 +11,20 @@ Download the Raspbian Buster Line image from the [official Raspberry download pa
 
 Boot the MicroSD on your Raspberry Pi, get the access to the command line and install python3-pycamera package
 
-  sudo apt update
-  sudo apt install python3.py
+  ```sudo apt update
+  sudo apt install python3.py```
 
 Check the IP address assigned to your Raspberry Pi by typing:
 
-  ifconfig
+  ```ifconfig```
 
 Download on your home directory the file stream.py  
 
-  wget .....
+  ```wget .....```
   
 Launch stream.py
 
-  python3 stream.py
+  ```python3 stream.py```
   
 Open a web browser on your PC and get the access to this URL:
 

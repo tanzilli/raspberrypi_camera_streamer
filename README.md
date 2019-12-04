@@ -28,7 +28,7 @@ Launch stream.py
   
 Open a web browser on your PC and get the access to this URL:
 
-* http://raspberry_ip:8001/stream.mjpg
+* [http://raspberry_ip:8001/stream.mjpg]([http://raspberry_ip:8001/stream.mjpg)
  
  
   

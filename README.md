@@ -14,6 +14,10 @@ Boot the MicroSD on your Raspberry Pi, get the access to the command line and in
     sudo apt update
     sudo apt install python3-picamera
 
+Enable the Raspberry Pi camera interface using
+
+    sudo raspi-config
+
 Check the IP address assigned to your Raspberry Pi by typing:
 
     ifconfig
@@ -29,6 +33,7 @@ Launch stream.py
 Open a web browser on your PC and get the access to this URL:
 
 * [http://raspberry_ip:8001/stream.mjpg]([http://raspberry_ip:8001/stream.mjpg)
- 
+
+
  
   

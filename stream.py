@@ -84,3 +84,5 @@ def stop():
     stream_status = False
     server.shutdown()
     server.server_close()
+    
+run()    

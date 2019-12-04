@@ -34,6 +34,8 @@ Open a web browser on your PC and get the access to this URL:
 
 * [http://raspberry_ip:8001/stream.mjpg]([http://raspberry_ip:8001/stream.mjpg)
 
+## Links
 
+* [Python3-Picamera documentation](https://picamera.readthedocs.io/en/release-1.13/index.html)
  
   

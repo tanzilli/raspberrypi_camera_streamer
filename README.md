@@ -51,7 +51,7 @@ Create a filed called __/lib/systemd/system/stream.service__ with the follow con
     [Install]
     WantedBy=multi-user.target
 
-## Enable the new service:
+### Enable the new service:
 
     sudo systemctl daemon-reload
     sudo systemctl enable stream.service

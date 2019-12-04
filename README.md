@@ -34,6 +34,29 @@ Open a web browser on your PC and get the access to this URL:
 
 * [http://raspberry_ip:8001/stream.mjpg]([http://raspberry_ip:8001/stream.mjpg)
 
+## Launch stream.py at startup
+
+Create a filed called __/lib/systemd/system/stream.service__ with the follow content:
+
+    [Unit]
+    Description=stream.py
+    After=systemd-user-sessions.service
+
+    [Service]
+    ExecStart=python3 stream.py
+    Restart=on-abort
+    User=pi
+    WorkingDirectory=/home/pi
+
+    [Install]
+    WantedBy=multi-user.target
+
+## Enable the new service:
+
+    sudo systemctl daemon-reload
+    sudo systemctl enable stream.service
+    sudo systemctl start stream.service
+
 ## Links
 
 * [Python3-Picamera documentation](https://picamera.readthedocs.io/en/release-1.13/index.html)

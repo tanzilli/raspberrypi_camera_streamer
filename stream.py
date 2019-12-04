@@ -64,8 +64,9 @@ def run(port = 8001):
     global output, server, stream_status
     with picamera.PiCamera(resolution='640x480', framerate=24) as camera:
         output = StreamingOutput()
-        #Uncomment the next line to change your Pi's Camera rotation (in degrees)
+        #Camera rotation (in degrees)
         camera.rotation = 180
+        #Camera Horizontal flip
         camera.hflip=True
         camera.start_recording(output, format='mjpeg')
         try:

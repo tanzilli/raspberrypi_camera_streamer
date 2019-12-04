@@ -2,7 +2,7 @@
 
 A python program for streaming raspberry pi camera
 
-This is a fork of [yasinarabi github project](yasinarabi/raspberrypi_camera_streamer) added with more info on
+This is a fork of [yasinarabi github project](https://github.com/yasinarabi/raspberrypi_camera_streamer) added with more info on
 how to try it using a Raspbian Buster Linux distribution.
 
 ## Step-by-step procedure
@@ -20,7 +20,7 @@ Check the IP address assigned to your Raspberry Pi by typing:
 
 Download on your home directory the file stream.py  
 
-     wget .....
+     wget https://raw.githubusercontent.com/tanzilli/raspberrypi_camera_streamer/master/stream.py
   
 Launch stream.py
 

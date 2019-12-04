@@ -12,7 +12,7 @@ Download the Raspbian Buster Line image from the [official Raspberry download pa
 Boot the MicroSD on your Raspberry Pi, get the access to the command line and install python3-pycamera package
 
     sudo apt update
-    sudo apt install python3.py
+    sudo apt install python3-picamera.py
 
 Check the IP address assigned to your Raspberry Pi by typing:
 

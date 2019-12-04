@@ -2,8 +2,8 @@
 
 A python program for streaming raspberry pi camera
 
-This is a fork of [yasinarabi github project](https://github.com/yasinarabi/raspberrypi_camera_streamer) added with more info on
-how to try it using a Raspbian Buster Linux distribution.
+This is just a fork of [yasinarabi github project](https://github.com/yasinarabi/raspberrypi_camera_streamer) 
+original project with more detailed info on how to try it using a Raspbian Buster Linux distribution.
 
 ## Step-by-step procedure
 
